@@ -1,0 +1,11 @@
+#include<stdio.h>
+ #include<conio.h>
+ void main ()
+ {
+ float cp, sp, p, l;
+ clrscr();
+ printf(“Enter the cost price and selling price of the article”);
+ scanf(“%f %f”,&cp,&sp);
+ p=sp-cp; /*Profi t=selling price–cost price*/
+ l=cp-sp; /*loss= cost price– selling price*/
+ if(p>0)
