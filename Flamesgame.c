@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-// Function to count unique characters after removing common ones
+
 int sameletters(char name1[], char name2[]) {
     int i, j, num = 0;
     
@@ -23,7 +23,7 @@ int sameletters(char name1[], char name2[]) {
     return num;
 }
 
-// Function to determine the FLAMES result
+
 void flames_result(int num) {
     char flames[] = "FLAMES";
     int length = 6;
