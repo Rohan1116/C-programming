@@ -21,9 +21,8 @@ int main() {
     printf("Sum of matrices:\n");
     for (int i = 0; i < rows; i++) {
         for (int j = 0; j < columns; j++) {
-            printf("%d ", mat1[i][j] + mat2[i][j]);
+            printf("%d\n ", mat1[i][j] + mat2[i][j]);
         }
-        printf("\n");
     }
 
     return 0;
