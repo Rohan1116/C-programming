@@ -10,7 +10,7 @@ int main() {
         scanf("%d", &nums[i]); 
     } 
     for (i = 0; i < x - 1; i++) { 
-        for (j = i + 1; j < x; j++) { 
+        for (j = i + 1; j < x; j++) {   
             if (nums[i] > nums[j]) { 
                 temp = nums[i]; 
                 nums[i] = nums[j]; 
@@ -24,4 +24,5 @@ int main() {
     } 
     printf("\n");
     return 0; 
+
 }
